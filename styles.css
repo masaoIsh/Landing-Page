@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
   font-family: 'Roboto', 'Times New Roman', sans-serif;
   padding: 0;
@@ -148,5 +152,44 @@ p {
   font-size: 25px;
   color: black;
   align-self: flex-end;
+  flex: auto;
+}
+
+.fourth-section {
+  display: flex;
+  flex-direction: row;
+  background-color: #3882f6;
+  margin: 75px 180px;
+  padding: 40px 100px;
+  border-radius: 10px;
+  justify-content: space-between;
+}
+
+.fourth-section p {
+  color: white;
+}
+
+.fs-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.separator {
+  background-color: #3882f6;
+}
+
+#call-to-action {
+  font-weight: 600;
+  font-size: 20px;
+  margin: 0px
+}
+
+#cta-subtext {
+  margin: 0px
+}
+
+#sign-up-button {
+  background-color: #3882f6;
+  border: 2px solid white;
   flex: auto;
 }
